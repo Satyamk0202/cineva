@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import './index.css';
 
-const IMG = 'https://image.tmdb.org/t/p/';
+const IMG = 'https://image.tmdb.org/t/p/' ;
 const movies = [
   { id: 1, title: 'Dune: Part Two', year: 2024, genre: 'Sci-Fi', rating: '8.5', runtime: '166 min', poster: '1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg', backdrop: 'xOMo8BRK7PFCJv9JC951vS4Xq1g.jpg', desc: 'Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.' },
   { id: 2, title: 'Interstellar', year: 2014, genre: 'Sci-Fi', rating: '8.7', runtime: '169 min', poster: 'gEU2QniE6E77NI6lCU6MxlNBvIx.jpg', backdrop: 'rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg', desc: 'A team of explorers travels beyond this galaxy to discover whether mankind has a future among the stars.' },
