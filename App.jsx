@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import './index.css';
+import './cinema-effects.css';
 
 const IMG = 'https://image.tmdb.org/t/p/' ;
 const movies = [
