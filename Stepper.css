@@ -1,0 +1,12 @@
+.stepper{--step-accent:#e8e8ec;width:min(100%,680px);padding:24px;border:1px solid rgba(255,255,255,.1);border-radius:24px;background:rgba(28,27,34,.82);color:#f5f5f5;box-shadow:0 22px 55px rgba(0,0,0,.3);backdrop-filter:blur(16px)}
+.stepper__progress{display:flex;gap:10px;align-items:center;margin-bottom:28px}
+.stepper__indicator{display:flex;align-items:center;gap:8px;border:0;background:transparent;color:#a6a4ad;font:600 12px Inter,system-ui;cursor:pointer}
+.stepper__indicator::before{content:"";height:2px;width:clamp(14px,4vw,42px);background:rgba(255,255,255,.16)}
+.stepper__indicator:first-child::before{display:none}
+.stepper__indicator.is-active,.stepper__indicator.is-done{color:#fff}
+.stepper__indicator.is-active{color:#fff}
+.stepper__content{min-height:110px;line-height:1.6}
+.stepper__actions{display:flex;justify-content:space-between;gap:12px;margin-top:24px}
+.stepper__actions button{border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:11px 20px;color:#fff;background:transparent;font-weight:600;cursor:pointer}
+.stepper__actions .stepper__next{background:var(--step-accent);color:#17171b;border-color:transparent}
+.stepper__actions button:disabled{opacity:.35;cursor:not-allowed}
