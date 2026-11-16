@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import './index.css';
 import './cinema-effects.css';
-import GooeyNav from "./components/GooeyNav";
+import GooeyNav from "./GooeyNav";
 import FlyingPosters from "./FlyingPosters";
 import Stepper, { Step } from "./Stepper";
 
