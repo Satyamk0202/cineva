@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import './index.css';
 import './cinema-effects.css';
+import GooeyNav from "./components/GooeyNav";
+import FlyingPosters from "./FlyingPosters";
+import Stepper, { Step } from "./Stepper";
 
 const IMG = 'https://image.tmdb.org/t/p/' ;
 const movies = [
